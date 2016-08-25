@@ -3,6 +3,6 @@
 
 #include <stdio.h>
 
-void login(char * username, char * password);
+void login();
 
 #endif

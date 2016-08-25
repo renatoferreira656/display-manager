@@ -2,5 +2,5 @@
 #include "login.h"
 
 void main(){
-    login("renato", "frango");
+    login();
 }
