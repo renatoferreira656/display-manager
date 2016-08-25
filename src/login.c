@@ -1,8 +1,8 @@
 #include "login.h"
 
 void login(){
-    char username[10];
-    char password[10];
+    char * username = malloc(20);
+    char * password = malloc(20);
     printf("Login:\n");
     scanf("%s", username);
     printf("Password:\n");
